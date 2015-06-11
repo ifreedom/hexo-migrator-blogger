@@ -1,31 +1,42 @@
 {
-  "name": "hexo-migrator-json",
-  "version": "0.0.1",
-  "description": "Blogspot JSON migrator plugin for Hexo",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tommy351/hexo-plugins.git"
-  },
-  "keywords": [
-    "website",
-    "blog",
-    "cms",
-    "framework",
-    "hexo"
-  ],
-  "author": "Juho Vepsalainen <bebraw@gmail.com> (http://nixtu.info)",
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
-  },
-  "engines": {
-    "hexo": "*"
-  },
-  "dependencies": {
-    "async": "*",
-    "to-markdown": "*",
-    "request": "~2.30.0",
-    "moment": "~2.4.0"
-  }
+    "name": "hexo-migrator-blogger",
+    "version": "0.0.1",
+    "description": "Blogspot JSON migrator plugin for Hexo",
+    "main": "index",
+    "directories": {
+        "lib": "./lib"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "author": {
+        "name": "hr6r",
+        "email": "hr6r@gmail.com",
+        "url": "http://hr6r.com"
+    },
+    "keywords": [
+        "hexo",
+        "migrator",
+        "blogger",
+        "blog",
+        "blogspot",
+        "migration"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hr6r/hexo-migrator-blogger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hr6r/hexo-migrator-blogger/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "hexo": "*"
+    },
+    "dependencies": {
+        "async": "^1.2.1",
+        "request": "^2.57.0",
+        "moment": "^2.10.3",
+        "to-markdown": "^1.2.1"
+    }
 }

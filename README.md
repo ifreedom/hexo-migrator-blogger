@@ -1,13 +1,19 @@
 # Blogger migrator
 
-Migrate your blog from Blogger to [Hexo].
+Migrate your blog from Blogger to [Hexo](http://hexo.io).
+
+fork from [https://github.com/hexojs/hexo-migrator-blogger](https://github.com/hexojs/hexo-migrator-blogger).
+
+## Insatll
+
+```
+install hexo-migrator-blogger --save
+```
 
 ## Usage
 
-Execute the following command after installed. `source` is the file path or URL of JSON. You can fetch the JSON easily from `<your blog>/feeds/posts/default?alt=json&max-results=10000`.
-
 ```
-hexo migrate json <source>
+hexo migrate blogger <source>
 ```
 
-[Hexo]: http://zespia.tw/hexo
+`source` is the URL of your Blogger feed. `<your blog>/feeds/posts/default?alt=json&max-results=10000`.

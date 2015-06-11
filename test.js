@@ -1,18 +1,5 @@
 #!/usr/bin/env node
-var migrate = require('./migrate');
 
+var migrate = require('./lib/migrate');
 
-main();
-
-function main() {
-  migrate({
-    write: function(target, content, next) {
-      console.log('###');
-      console.log('target', target);
-      console.log(content);
-
-      next();
-    },
-  }, 'data.json', 'out/');
-}
-
+migrate('http://www.hr6r.com/feeds/posts/default?alt=json&max-results=1', './');
