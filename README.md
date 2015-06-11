@@ -1,13 +1,13 @@
-# Blogger migrator
+# Blogger(blogspot.com) migrator
 
-Migrate your blog from Blogger to [Hexo](http://hexo.io).
+Migrate your blog from Blogger(blogspot.com) to [Hexo](http://hexo.io).
 
 fork from [https://github.com/hexojs/hexo-migrator-blogger](https://github.com/hexojs/hexo-migrator-blogger).
 
-## Insatll
+## Install
 
 ```
-install hexo-migrator-blogger --save
+npm install hexo-migrator-blogger --save
 ```
 
 ## Usage
@@ -16,4 +16,4 @@ install hexo-migrator-blogger --save
 hexo migrate blogger <source>
 ```
 
-`source` is the URL of your Blogger feed. `<your blog>/feeds/posts/default?alt=json&max-results=10000`.
+`source` is the URL of your Blogger(blogspot.com) feed. `<your blog>/feeds/posts/default?alt=json&max-results=10000`.

@@ -1,7 +1,7 @@
 {
     "name": "hexo-migrator-blogger",
-    "version": "0.0.1",
-    "description": "Blogspot JSON migrator plugin for Hexo",
+    "version": "0.0.2",
+    "description": "Blogger(blogspot.com) migrator plugin for Hexo",
     "main": "index",
     "directories": {
         "lib": "./lib"
