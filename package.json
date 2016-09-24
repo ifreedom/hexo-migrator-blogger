@@ -1,6 +1,6 @@
 {
     "name": "hexo-migrator-blogger",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Blogger(blogspot.com) migrator plugin for Hexo",
     "main": "index",
     "directories": {
